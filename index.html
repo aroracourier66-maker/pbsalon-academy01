@@ -1,109 +1,247 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PB Salon Academy | Beauty & Excellence</title>
-    <meta name="description" content="PB Salon Academy - Professional beauty, makeup and hairstyling services and training.">
 
+    <title>PB Salon Academy | Beauty & Excellence</title>
+
+    <meta name="description"
+        content="Welcome to PB Salon Academy. Discover professional bridal makeup, hairstyling, beauty treatments and professional beauty courses.">
+
+    <meta name="theme-color" content="#fffaf8">
+
+    <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= NAVIGATION ================= -->
+
     <header>
         <nav class="navbar">
-            <h2 class="logo">PB <span>SALON ACADEMY</span></h2>
+
+            <a href="#home" class="brand">
+                <h2 class="logo">
+                    PB
+                    <span>SALON ACADEMY</span>
+                </h2>
+            </a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#gallery">Our Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="tagline">BEAUTY • ELEGANCE • CONFIDENCE</p>
 
-            <h1>Discover Your<br><span>Beautiful Side</span></h1>
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="tagline">
+                    BEAUTY • ELEGANCE • CONFIDENCE
+                </p>
+
+                <h1>
+                    Discover Your
+                    <br>
+                    <span>Beautiful Side</span>
+                </h1>
+
+                <p>
+                    Experience the art of beauty with PB Salon Academy.
+                    Where elegance meets perfection and every look
+                    tells a beautiful story.
+                </p>
+
+                <a href="#contact" class="btn">
+                    BOOK YOUR APPOINTMENT
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="about" id="about">
+
+            <p class="tagline">WELCOME TO PB SALON ACADEMY</p>
+
+            <h2>
+                Beauty Is An Art,
+                <br>
+                And You Are The Masterpiece.
+            </h2>
 
             <p>
-                Experience the art of beauty with PB Salon Academy.
-                Where elegance meets perfection.
+                At PB Salon Academy, we believe that beauty is more
+                than just appearance. It is about confidence,
+                individuality and self-expression.
+
+                Discover professional beauty services, creative
+                makeup artistry, expert hairstyling and professional
+                beauty education in a welcoming environment.
             </p>
 
-            <a href="#contact" class="btn">Book Your Appointment</a>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2>Welcome to PB Salon Academy</h2>
-        <p>
-            We believe beauty is an art and every individual deserves
-            to feel confident and beautiful. Discover professional
-            beauty services, creative makeup and expert training.
-        </p>
-    </section>
 
-    <!-- Services -->
-    <section class="services" id="services">
-        <h2>Our Services</h2>
+        <!-- ================= SERVICES SECTION ================= -->
 
-        <div class="service-container">
+        <section class="services" id="services">
 
-            <div class="service-card">
-                <h3>Bridal Makeup</h3>
-                <p>Elegant bridal looks for your special day.</p>
+            <p class="tagline">WHAT WE OFFER</p>
+
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <div class="service-card">
+                    <h3>Bridal Makeup</h3>
+                    <p>
+                        Elegant and flawless bridal looks
+                        for your most special moments.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Party Makeup</h3>
+                    <p>
+                        Glamorous and beautiful looks
+                        for every celebration.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Hair Styling</h3>
+                    <p>
+                        Professional hairstyling and
+                        beautiful hair transformations.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Beauty Courses</h3>
+                    <p>
+                        Learn professional beauty skills
+                        and develop your creativity.
+                    </p>
+                </div>
+
             </div>
 
-            <div class="service-card">
-                <h3>Party Makeup</h3>
-                <p>Beautiful looks for every celebration.</p>
+        </section>
+
+
+        <!-- ================= GALLERY SECTION ================= -->
+
+        <section class="gallery" id="gallery">
+
+            <p class="tagline">OUR WORK • OUR PASSION</p>
+
+            <h2>Beauty In Every Detail</h2>
+
+            <p>
+                Explore our makeup artistry, bridal transformations
+                and creative beauty work.
+            </p>
+
+            <div style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                gap: 20px;
+                margin-top: 45px;
+            ">
+
+                <img
+                    src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700"
+                    alt="Professional beauty makeup"
+                    style="width:100%; height:320px; object-fit:cover;"
+                    loading="lazy">
+
+                <img
+                    src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700"
+                    alt="Professional hair styling"
+                    style="width:100%; height:320px; object-fit:cover;"
+                    loading="lazy">
+
+                <img
+                    src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=700"
+                    alt="Beauty and makeup products"
+                    style="width:100%; height:320px; object-fit:cover;"
+                    loading="lazy">
+
             </div>
 
-            <div class="service-card">
-                <h3>Hair Styling</h3>
-                <p>Professional hairstyling and hair care.</p>
-            </div>
+        </section>
 
-            <div class="service-card">
-                <h3>Beauty Courses</h3>
-                <p>Learn professional beauty techniques.</p>
-            </div>
 
-        </div>
-    </section>
+        <!-- ================= CONTACT SECTION ================= -->
 
-    <!-- Gallery -->
-    <section class="gallery" id="gallery">
-        <h2>Our Beauty Gallery</h2>
-        <p>Creativity, elegance and beauty in every detail.</p>
-    </section>
+        <section class="contact" id="contact">
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Let's Connect</h2>
-        <p>Ready to book your appointment or join our academy?</p>
+            <p class="tagline">LET'S MAKE YOU BEAUTIFUL</p>
 
-        <a href="https://wa.me/91XXXXXXXXXX" class="btn">
-            Contact Us on WhatsApp
-        </a>
-    </section>
+            <h2>Let's Connect</h2>
 
-    <!-- Footer -->
+            <p>
+                Ready to experience beauty and elegance?
+                Book your appointment or enquire about our
+                professional beauty courses.
+            </p>
+
+            <a
+                href="https://wa.me/91XXXXXXXXXX"
+                class="btn"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                CONTACT US ON WHATSAPP
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
-        <p>© 2026 PB Salon Academy. All Rights Reserved.</p>
+
+        <h3>PB SALON ACADEMY</h3>
+
+        <p>
+            Beauty • Elegance • Confidence
+        </p>
+
+        <p>
+            © 2026 PB Salon Academy.
+            All Rights Reserved.
+        </p>
+
     </footer>
 
+
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
+
 </html>
